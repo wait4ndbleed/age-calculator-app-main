@@ -19,8 +19,8 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [https://github.com/wait4ndbleed/huddle-landing-page-with-single-introductory-section-master](https://github.com/wait4ndbleed/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [https://wondrous-travesseiro-2b868c.netlify.app](https://wondrous-travesseiro-2b868c.netlify.app)
+- Solution URL: [https://github.com/wait4ndbleed/age-calculator-app-main](https://github.com/wait4ndbleed/age-calculator-app-main)
+- Live Site URL: [https://celadon-clafoutis-815a88.netlify.app](https://celadon-clafoutis-815a88.netlify.app)
 
 
 ### Built with
