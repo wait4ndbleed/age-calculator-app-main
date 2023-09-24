@@ -27,9 +27,6 @@ body {
     height: 100vh;
 }
 
-header {
-    display: none;
-}
 
 main {
     width: 600px;
