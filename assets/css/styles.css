@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PoppinsI;
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsEBI;
+    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    width: 600px;
+}
+
+.inputs {
+    display: flex;
+    font-family: PoppinsB;
+}
+
+.day, .month, .year {
+    font-size: 13px;
+    margin-right: 10px;
+    color: hsl(0, 1%, 44%);
+}
+
+.day-i, .month-i, .year-i {
+    width: 160px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 86%);
+    display: block;
+    padding-left: 20px;
+    outline: 0;
+    color: hsl(0, 0%, 8%);
+    font-family: PoppinsB;
+    font-size: 32px;
+}
+
+.day-i::placeholder, .month-i::placeholder, .year-i::placeholder{
+    color: hsl(0, 1%, 44%);
+}
+
+.day-e, .month-e, .year-e {
+    font-family: PoppinsI;
+    font-size: 13px;
+    color: hsl(0, 100%, 67%);
+}
+
+.day-i:focus, .month-i:focus, .year-i:focus {
+    border: 1px solid hsl(259, 100%, 65%);
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+.calc {
+    background-image: url(../images/icon-arrow.svg);
+    background-color: hsl(259, 100%, 65%);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    right: 0;
+    cursor: pointer;
+}
+
+.calc:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.res {
+    font-size: 95px;
+    font-family: PoppinsEBI;
+}
+
+.res span {
+    color: hsl(259, 100%, 65%);
+}
+
+.month-res {
+    margin-top: -15px;
+}
+
+.day-res {
+    margin-top: -15px;
+}
+
+@media (max-width: 650px) {
+
+    main {
+        width: 80%;
+    }
+
+    .day-i, .month-i, .year-i {
+        width: 86px;
+        height: 52px;
+        font-size: 18px;
+    }
+
+    .button {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .calc {
+        width: 65px;
+        height: 65px;
+        background-size: 40%;
+    }
+
+    .res {
+        font-size: 50px;
+    }
+
+    .year-res {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 330px) {
+    .res {
+        font-size: 45px;
+    }
+}
